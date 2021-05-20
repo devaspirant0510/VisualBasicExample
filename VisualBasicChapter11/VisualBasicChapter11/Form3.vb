@@ -56,9 +56,6 @@
                 End If
             Next
             TextBox3.Text = $"{TextBox3.Text}{Chr(((index - shift + 26) Mod 26) + 97)}"
-
-
-            isUpper = False
             index = 0
         Next
     End Sub
